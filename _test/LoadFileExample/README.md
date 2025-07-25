@@ -9,14 +9,16 @@
 - 转换为标准glTF 2.0格式
 - 支持命令行参数配置
 - 包含进度显示和日志输出
+- 支持材质信息导出
 
 ## 编译要求
 
+- 可直接用build.bat编译(仅关注release即可)
 - Visual Studio 2022
 - IFCPlusPlus库 (位于 `E:\github\ifcplusplus\IfcPlusPlus\src`)
 - cgltf库 (位于 `E:\github\acTorus\Third\cgltf-1.15`)
 - C++17标准支持
-- 可直接用test.bat编译(仅关注release即可)
+
 
 ## 编译方法
 
