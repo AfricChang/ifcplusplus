@@ -46,7 +46,8 @@ LoadFileExample.exe -i input.ifc -o output.gltf
 - `-h, --help`          显示帮助信息
 
 
-### data目录下
+### data目录下有测试数据
+- 测试数据产生的结果数据也需要放到data目录下
 - example.ifc
 - IfcOpenHouse.ifc
 
