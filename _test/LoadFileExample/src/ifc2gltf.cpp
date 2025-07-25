@@ -524,44 +524,14 @@ private:
         std::string materialId = "default";
         
         try {
-            // 从几何项目的外观信息中提取颜色
-            if (item && !item->m_vec_item_appearances.empty())
-            {
-                for (auto& appearance : item->m_vec_item_appearances)
-                {
-                    if (appearance && appearance->m_color_rgba.size() >= 4)
-                    {
-                        // 创建新材质
-                        MaterialData material;
-                        material.name = "Material_" + std::to_string(m_materials.size() + 1);
-                        material.baseColorFactor[0] = static_cast<float>(appearance->m_color_rgba[0]);
-                        material.baseColorFactor[1] = static_cast<float>(appearance->m_color_rgba[1]);
-                        material.baseColorFactor[2] = static_cast<float>(appearance->m_color_rgba[2]);
-                        material.baseColorFactor[3] = static_cast<float>(appearance->m_color_rgba[3]);
-                        
-                        // 设置材质属性
-                        material.metallicFactor = 0.0f;
-                        material.roughnessFactor = 0.9f;
-                        
-                        // 添加到材质映射
-                        materialId = material.name;
-                        m_materials[materialId] = material;
-                        
-                        LogDebug("Extracted material: " + material.name + 
-                                " RGBA(" + std::to_string(material.baseColorFactor[0]) + "," +
-                                std::to_string(material.baseColorFactor[1]) + "," +
-                                std::to_string(material.baseColorFactor[2]) + "," +
-                                std::to_string(material.baseColorFactor[3]) + ")");
-                        return materialId;
-                    }
-                }
-            }
-            
+            // 简化的材质提取 - 由于API变化，暂时使用默认材质
             // 确保有默认材质
             if (m_materials.find("default") == m_materials.end())
             {
                 CreateDefaultMaterial();
             }
+            
+            LogDebug("Using default material for " + node->name);
         }
         catch (const std::exception& e)
         {
