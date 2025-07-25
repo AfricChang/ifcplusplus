@@ -115,7 +115,7 @@
       <ConformanceMode>Default</ConformanceMode>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>../../IfcPlusPlus/src/external;../../IfcPlusPlus/src/external/Carve/include;../../IfcPlusPlus/src/external/Carve/src;../../IfcPlusPlus/src/external/Carve/src/include;../../IfcPlusPlus/src/external/Carve/src/common;../../IfcPlusPlus/src/external/Carve/build/src;.;./src;../../IfcPlusPlus/src;../../IfcPlusPlus/src/ifcpp/IFC4X3/include;../../IfcPlusPlus/src/external/glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../IfcPlusPlus/src/external;../../IfcPlusPlus/src/external/Carve/include;../../IfcPlusPlus/src/external/Carve/src;../../IfcPlusPlus/src/external/Carve/src/include;../../IfcPlusPlus/src/external/Carve/src/common;../../IfcPlusPlus/src/external/Carve/build/src;.;./src;../../IfcPlusPlus/src;../../IfcPlusPlus/src/ifcpp/IFC4X3/include;../../IfcPlusPlus/src/external/glm;E:\github\acTorus\Third\cgltf-1.15;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
     </ClCompile>
@@ -157,7 +157,7 @@
       <ConformanceMode>Default</ConformanceMode>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>../../IfcPlusPlus/src/external;../../IfcPlusPlus/src/external/Carve/include;../../IfcPlusPlus/src/external/Carve/src;../../IfcPlusPlus/src/external/Carve/src/include;../../IfcPlusPlus/src/external/Carve/src/common;../../IfcPlusPlus/src/external/Carve/build/src;.;./src;../../IfcPlusPlus/src;../../IfcPlusPlus/src/ifcpp/IFC4X3/include;../../IfcPlusPlus/src/external/glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../IfcPlusPlus/src/external;../../IfcPlusPlus/src/external/Carve/include;../../IfcPlusPlus/src/external/Carve/src;../../IfcPlusPlus/src/external/Carve/src/include;../../IfcPlusPlus/src/external/Carve/src/common;../../IfcPlusPlus/src/external/Carve/build/src;.;./src;../../IfcPlusPlus/src;../../IfcPlusPlus/src/ifcpp/IFC4X3/include;../../IfcPlusPlus/src/external/glm;E:\github\acTorus\Third\cgltf-1.15;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <FloatingPointExceptions>true</FloatingPointExceptions>
